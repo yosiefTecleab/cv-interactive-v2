@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: black;
+    --background-color: gray;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    --background-color: gray;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    display: flex;
+    align-items: center;
+
+}
+
+.cv-form {
+    background-color: gray;
+}
+
+.cv-template {
+    width: 50%;
+}
+
+.full {
+
+    width: 85%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.left {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+
+}
+
+.right {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+
+}
+
+.image,
+.Kontakt,
+.Ferdigheter,
+.Språk,
+.Interesser,
+.title,
+.Sammendrag,
+.Arbeidserfaring,
+.Utdannelse,
+.Annet {
+    margin-bottom: 30px;
+}
+
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
